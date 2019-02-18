@@ -77,6 +77,7 @@ main section {
 
 .highlights {
   padding-left: 1.5rem;
+  font-size: 0.9rem;
 }
 
 li {
@@ -92,8 +93,7 @@ a {
 sub {
   background-color: #eeeeeeb5;
   padding: 1rem;
-  min-width: 15rem;
-  max-width: 20rem;
+  min-width: 12rem;
 }
 
 .side-panel div {
