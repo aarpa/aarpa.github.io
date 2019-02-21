@@ -51,14 +51,14 @@ h3 {
   color: #bb6661;
   padding-bottom: 0.25rem;
   border-bottom: 0.5px solid #bb6661;
-  box-shadow: 0 1px lightgray;
+  /*box-shadow: 0 1px lightgray;*/
 }
 
 .flex-container {
   display: flex;
 }
 
-.summary p,
+.objective p,
 section .flex-container {
   padding: 0.5rem 0;
 }
@@ -92,16 +92,29 @@ a {
   font-weight: bold;
 }
 
-sub {
+.side-panel {
   background-color: #eeeeeeb5;
   padding: 1rem;
   min-width: 12rem;
 }
 
-.side-panel div {
+.personal-info div {
   padding: 0.5rem 0;
 }
 
 h4 {
   font-weight: bold;
+}
+
+
+@media print {
+  body {
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .flex-container {
+    align-items: flex-start;
+  }
 }
