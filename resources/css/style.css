@@ -67,7 +67,8 @@ main {
   padding: 0 2rem;
 }
 
-main section {
+main section,
+sub section {
   padding: 1rem 0;
 }
 
@@ -92,9 +93,9 @@ a {
   font-weight: bold;
 }
 
-.side-panel {
+sub {
   background-color: #eeeeeeb5;
-  padding: 1rem;
+  padding: 0 1rem;
   min-width: 12rem;
 }
 
@@ -104,6 +105,15 @@ a {
 
 h4 {
   font-weight: bold;
+}
+
+.skills ul {
+  padding-left: 1rem;
+}
+
+.skills li {
+  font-style: normal;
+  padding-top: 0.5rem;
 }
 
 
