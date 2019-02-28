@@ -51,7 +51,7 @@ h3 {
   color: #bb6661;
   padding-bottom: 0.25rem;
   border-bottom: 0.5px solid #bb6661;
-  /*box-shadow: 0 1px lightgray;*/
+  page-break-after: avoid;
 }
 
 .flex-container {
@@ -61,14 +61,14 @@ h3 {
 .objective p,
 section .flex-container {
   padding: 0.5rem 0;
+  page-break-inside: avoid;
 }
 
 main {
   padding: 0 2rem;
 }
 
-main section,
-sub section {
+section {
   padding: 1rem 0;
 }
 
@@ -118,13 +118,29 @@ h4 {
 
 
 @media print {
+  html {
+    background: none;
+  }
+
   body {
     margin: 0;
     width: 100%;
     box-shadow: none;
   }
 
+  main {
+    padding: 0 1rem;
+  }
+
   .flex-container {
     align-items: flex-start;
   }
+/*
+  section .flex-container {
+    page-break-inside: avoid;
+  }
+
+  h3 {
+    page-break-after: avoid;
+  }*/
 }
