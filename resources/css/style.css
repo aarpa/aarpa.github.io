@@ -54,22 +54,22 @@ h3 {
   /*page-break-after: avoid;*/
 }
 
+main {
+  padding: 0 2rem;
+}
+
 .flex-container {
   display: flex;
+}
+
+section {
+  padding: 1rem 0;
 }
 
 .objective p,
 section .flex-container {
   padding: 0.5rem 0;
   /*page-break-inside: avoid;*/
-}
-
-main {
-  padding: 0 2rem;
-}
-
-section {
-  padding: 1rem 0;
 }
 
 .date {
