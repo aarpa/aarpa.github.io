@@ -51,7 +51,7 @@ h3 {
   color: #bb6661;
   padding-bottom: 0.25rem;
   border-bottom: 0.5px solid #bb6661;
-  page-break-after: avoid;
+  /*page-break-after: avoid;*/
 }
 
 .flex-container {
@@ -61,7 +61,7 @@ h3 {
 .objective p,
 section .flex-container {
   padding: 0.5rem 0;
-  page-break-inside: avoid;
+  /*page-break-inside: avoid;*/
 }
 
 main {
@@ -135,12 +135,8 @@ h4 {
   .flex-container {
     align-items: flex-start;
   }
-/*
-  section .flex-container {
+
+  section {
     page-break-inside: avoid;
   }
-
-  h3 {
-    page-break-after: avoid;
-  }*/
 }
