@@ -96,15 +96,23 @@ a {
 sub {
   background-color: #eeeeeeb5;
   padding: 0 1rem;
-  min-width: 12rem;
+  /*min-width: 12rem;*/
 }
 
-.personal-info div {
+.personal-info div,
+.skills div {
   padding: 0.5rem 0;
 }
 
 h4 {
   font-weight: bold;
+}
+
+.personal-info a {
+  font-style: normal;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .skills ul {
